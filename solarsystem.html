@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Solar System</title>
+  <style>
+    html, body {
+      margin: 0;
+      overflow: hidden;
+    }
+    #controls {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      font-family: sans-serif;
+      max-height: 90vh;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- 3D canvas -->
+  <canvas id="scene"></canvas>
+
+  <!-- Speed control sliders -->
+  <div id="controls"></div>
+
+  <!-- JS files load -->
+  <script type="module" src="garima.js"></script>
+  <script type="module" src="ui.js"></script>
+</body>
+</html>
